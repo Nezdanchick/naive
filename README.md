@@ -1,6 +1,8 @@
 # naive
-Naive is   
-Artificial   
-Intelligence, but it's   
-Very (not really)   
-Efficient   
+* Naive   
+* Artificial   
+* Intelligence is   
+* Vain and   
+* Easy-to-use
+
+>Наивный искусственный интеллект бесполезен и прост в использовании
