@@ -30,6 +30,7 @@ fn manual_percepthron() {
     let mut out = Neuron::empty();
     out.add(&[syn11, syn12]);
 
+    let output = out.get();
     {// prints info about neurons
         println!(
             "
@@ -46,6 +47,9 @@ fn manual_percepthron() {
             out = out.get()
         );
 
-        println!("{}", out.get() > 0.5);
+        println!("{}", output > 0.5);
+    }
+    if output <= 0.60005 && output >= 0.60006 {
+        panic!()
     }
 }
